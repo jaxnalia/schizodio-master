@@ -129,9 +129,21 @@
         </a>
         <a
           class="w-full"
-          href="https://dexscreener.com/starknet/0x00acc2fa3bb7f6a6726c14d9e142d51fe3984dbfa32b5907e1e76425177875e2-0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d-2347948331754475397897284791279200659-5982-0x0"
+          href="https://www.geckoterminal.com/starknet-alpha/pools/0x116679a71aa797a1f2bfe6e6746f823906d7765e71bd250e569340ae975ae56"
         >
           <Button>Chart</Button>
+        </a>
+        <a
+          class="w-full"
+          href="https://schizodio.art"
+        >
+          <Button>Gallery</Button>
+        </a>
+        <a
+          class="w-full"
+          href="https://t.me/schiz0di0"
+        >
+          <Button>Telegram</Button>
         </a>
       </div>
     </Window>
@@ -166,9 +178,15 @@
       </div>
     </Window>
   </div>
+  <div class="w-full max-w-screen-xl mx-auto">
+    <Window title="📉 SCHIZODIO CHART 📈" width="full" height="full">
+      <iframe height="600px" width="100%" id="geckoterminal-embed" title="GeckoTerminal Embed" src="https://www.geckoterminal.com/starknet-alpha/pools/0x116679a71aa797a1f2bfe6e6746f823906d7765e71bd250e569340ae975ae56?embed=1&info=0&swaps=0&grayscale=0&light_chart=0&chart_type=price&resolution=15m" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+    </Window>
+  </div>
+  
 
   <!-- SCHIZO ANNOUNCEMENT -->
-  <div class="w-full max-w-screen-xl mx-auto px-4">
+  <div class="w-full max-w-screen-xl mx-auto">
     <Window title="📢 BREAKING NEWS 📢" width="full">
       <div
         class="matrix text-center mega-text {blinkState
@@ -181,7 +199,7 @@
   </div>
 
   <!-- DISCLAIMER -->
-  <div class="w-full max-w-screen-xl mx-auto px-4 mt-4">
+  <div class="w-full max-w-screen-xl mx-auto mt-4">
     <Window title="⚠️ REALITY CHECK ⚠️" width="full">
       <div
         class="p-3 matrix text-center schizo-text {blinkState ? 'blink' : ''}"
